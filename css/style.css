@@ -1,1 +1,169 @@
-
+body{
+			background: #8B4513;
+			background-repeat: no-repeat;
+			background-size: 100% ;
+			background-attachment: fixed;
+}
+A{
+    text-decoration: none;
+    font-family: Gill Sans, sans-serif;
+    font-weight: bold;
+    color: #FFFFF0;
+} 
+A:hover{ 
+    text-decoration: underline;
+} 
+#firstdiv{
+	width: 800px ;
+	height: 150px;
+	margin: 30px 0px 0px 380px;
+}
+#logo{
+	background-color: none;
+	width: 300px;
+	height: 100px;
+	margin: 30px 0px 0px 15px;
+	padding: 0px 0px 0px 0px;
+	float: left;
+}
+#photologo{
+	position: relative;
+	width: 300px;
+	height: 100px;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+#dovidnyk1{
+	width:260px;
+	height:30px;
+	margin: 40px 0px 0px 15px;
+	padding:5px 0px 0px 15px;
+	float: left;
+	clear: right;
+}
+#dovidnyktext{
+	margin: 0px 0px 20px 0px;
+}
+#zbroya1{
+	width:50px;
+	height:25px;
+	margin: 90px 0px 0px -275px;
+	padding: 5px 0px 0px 10px;
+	float: left;
+}
+#maps1{
+	width:50px;
+	height:25px;
+	margin: 90px 0px 0px -200px;
+	padding: 5px 0px 0px 10px;
+	float: left;
+}
+#gamemods1{
+	width:95px;
+	height:25px;
+	margin: 90px 0px 0px -128px;
+	padding: 5px 0px 0px 10px;
+	float: left;
+}
+#skins1{
+	width:50px;
+	height:25px;
+	margin: 90px 0px 0px -10px;
+	padding: 5px 0px 0px 10px;
+	float: left;
+}
+#sekonddiv{
+	background: rgba(0, 0, 0, 0.6);
+	width: 1140px;
+	height: 975px;
+	margin: 20px 40px 0px 380px;
+	padding: 20px 0px 0px 0px;
+	float: left;
+}
+#aboutsite{
+	background: rgba(205, 214, 219, 0.3);
+	width: 940px;
+	height: 150px;
+	margin: 0px 0px 0px 100px;
+	border: 2.5px solid #BB5E00;
+}
+#slider{
+	background: rgba(190, 190, 190, 0.3);
+	width: 940px;
+	height: 350px;
+	margin: 0px 0px 0px 100px;
+	border: 2.5px solid #BB5E00;
+}
+#navigator{
+	background: rgba(205, 214, 219, 0.3);
+	width: 940px;
+	height: 400px;
+	margin: 0px 0px 0px 100px;
+	border: 2.5px solid #BB5E00;
+}
+#zbroya2{
+	width: 100px;
+	height: 120px;
+	margin: 53px 0px 0px 320px;
+	float: left;
+}
+#zbroya3{
+	background-color: #1047A9;
+	width: 100px;
+	height: 90px;
+	margin: px 0px 0px px;
+}
+#maps2{
+	width: 100px;
+	height: 120px;
+	margin: 53px 0px 0px 100px;
+	float: left;
+}
+#maps3{
+	background-color: #7109AA;
+	width: 100px;
+	height: 90px;
+	margin: 0px 0px 0px 0px;
+}
+#gamemods2{
+	width: 100px;
+	height: 120px;
+	margin: 216px 0px 0px 320px;
+	float: none;
+}
+#gamemods3{
+	background-color: #A8F000;
+	width: 100px;
+	height: 90px;
+	margin: 0px 0px 0px 0px;
+}
+#skins2{
+	width: 100px;
+	height: 120px;
+	margin: -120px 0px 0px 522px;
+	float: top;
+}
+#skins3{
+	background-color: red;
+	width: 100px;
+	height: 90px;
+	margin: 0px 0px 0px 0px;
+}
+footer{  
+	background-color: #290022;
+	width: 1140px;
+	height: 200px;
+	margin: 20px 0px 0px 380px;
+	padding: 20px 0px 0px 0px;
+	float: left;
+}
+img.background {
+  min-height: 100%;
+  min-width: 640px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
