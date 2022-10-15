@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Стендофф-головна</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/simple-adaptive-slider.css">
+	<style>
+    /* стили для элемента body */
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+      sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    }
+
+    /* дополнительные стили для этого примера */
+    .itcss__items {
+      counter-reset: slide;
+    }
+
+    .itcss__item {
+      counter-increment: slide;
+    }
+
+    .itcss__item>div::before {
+      content: counter(slide);
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      color: #fff;
+      font-style: italic;
+      font-size: 32px;
+      font-weight: bold;
+    }
+  </style>
+	<script defer src="js/simple-adaptive-slider.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // активация слайдера
+      new ItcSimpleSlider('.itcss', {
+        loop: true,
+        autoplay: true,
+        swipe: true
+      });
+    });
+  </script>
+</head>
+<header>
+	<div id="firstdiv"> 
+			<div id="logo"> 
+			 <a href="index.html"><img id="photologo" src="image/logo.png" alt="На головну"></a>
+			</div>
+			<div id="dovidnyk1">
+			 <a href="index.html"><h2 id="dovidnyktext">Стендофф довідник</h2></a>
+			</div>
+			<div id="zbroya1">
+				<a href="guns.html" style="margin: 0 0 0 0px;">Зброя</a>
+			</div>
+			<div id="maps1">
+				<a href="maps.html" style="margin: 0 0 0 0px;">Мапи</a>
+			</div>
+			<div id="gamemods1">
+				<a href="gamemods.html" style="margin: 0 0 0 0px;">Режими гри</a>
+			</div>
+			<div id="skins1">
+				<a href="skins.html" style="margin: 0 0 0 0px;">Скіни</a>
+			</div>				
+	</div>
+</header>
+<body style="background-image: url(bg2.jpg);">
+	<div id="sekonddiv">
+		<div id="aboutsite">
+			<p id="pfirst">Раді вас бачити</p>
+			<p id="pfirst">Цей сайт створив учнь 11-А класу Семенівської гімназії №2 Борисенко Артем</p>
+			<p id="pfirst">Це сайт-довідник про відому гру Standoff 2</p>
+			<p id="pfirst">Приємного користування</p>
+		</div>
+		<br>
+		<div id="slider">
+			<div class="itcss">
+    <div class="itcss__wrapper">
+      <div class="itcss__items">
+        <div class="itcss__item">
+          	<img id="sl" src="image/sl1.jpg">
+        </div>
+        <div class="itcss__item">
+        	<img id="sl" src="image/sl2.jpg">
+    	</div>
+        <div class="itcss__item">
+			<img id="sl" src="image/sl3.jpg">
+        </div>
+        <div class="itcss__item">
+          <img id="sl" src="image/sl4.jpg">
+      </div>
+    </div>
+    <button class="itcss__btn itcss__btn_prev" role="button" data-slide="prev"></button>
+    <button class="itcss__btn itcss__btn_next" role="button" data-slide="next"></button>
+  </div>
+		</div>
+		<br>
+		<div id="navigator">
+			
+			<div id="zbroya2">
+				<div id="zbroya3"> 
+					<img id="img" src="image/gun.png"  alt="gun">
+				</div>
+				<a href="guns.html" style="margin: 0 0 0 30px;">Зброя</a>
+			</div>
+			<div id="maps2">
+				<div id="maps3">
+					<img id="img" src="image/maps.png"  alt="maps">
+				</div>
+				<a href="maps.html" style="margin: 0 0 0 30px;">Мапи</a>
+			</div>
+			<div id="gamemods2">
+				<div id="gamemods3">
+					<img id="img" src="image/gamemmods.png"  alt="gamemods">
+				</div>
+				<a href="gamemods.html" style="margin: 0 0 0 4px;">Режими гри</a>
+			</div>
+			<div id="skins2">
+				<div id="skins3">
+					<img id="img" src="image/skins.png"  alt="skins">
+				</div>
+				<a href="skins.html" style="margin: 0 0 0 30px;">Скіни</a>
+			</div>
+		</div>
+	</div>
+</body>
+<footer id="fgol">
+	<div>
+		<p id="fp">Зворотній зв'язок: borysenkoartem99@gmail.com</p>
+		<a href="https://www.instagram.com/officialstandoff"><img id="fiimg" src="image/instlogo.png"></a>
+		<a href="https://twitter.com/so2_official"><img id="ftimg" src="image/twitlogo.png"></a>
+		<a href="https://www.facebook.com/Standoff2Official/"><img id="ffimg" src="image/facelogo.png"></a>
+		<a href="https://axlebolt.com"><img id="faimg" src="image/axlelogo.png"></a>
+	</div>
+</footer>
+</html>
